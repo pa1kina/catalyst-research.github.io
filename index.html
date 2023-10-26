@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
   <title>The Catalyst @ UCSD</title>
   <link rel="shortcut icon" type="image/x-icon" href="./assets/Favicon.png">
@@ -12,18 +13,21 @@
     .w3-bar-block .w3-bar-item {padding:20px}
   </style>
 </head>
+
 <body>
 
 <!-- Sidebar (hidden by default) -->
-<nav class="w3-sidebar w3-bar-block w3-card w3-top w3-xlarge w3-animate-left" style="display:none;z-index:2;width:40%;min-width:300px" id="mySidebar">
+<nav class="w3-sidebar w3-bar-block w3-card w3-top w3-xlarge w3-animate-left" style="display:none;z-index:3;width:25%;min-width:150px;" id="mySidebar">
   <a href="javascript:void(0)" onclick="w3_close()"
-  class="w3-bar-item w3-button">Close Menu</a>
+  class="w3-bar-item w3-button">✗</a>
   <a href="https://escholarship.org/uc/ucsd_aep_catalyst" onclick="w3_close()" class="w3-bar-item w3-button">Volumes</a>
   <a href="mailto:thecatalystatucsd@gmail.com" onclick="w3_close()" class="w3-bar-item w3-button">Contact Us</a>
+  <a href="https://forms.gle/WRJE41HmaVtogf3y6" onclick="w3_close()" class="w3-bar-item w3-button">Author Interest Form</a>
+  <a href="https://forms.gle/YYW2ngVsVScS2ZRx7" onclick="w3_close()" class="w3-bar-item w3-button">Editor Interest Form</a>
 </nav>
 
-<!-- Top menu -->
-<div class="w3-top">
+<!-- Top Menu -->
+<div class="w3-top" style="background:white;z=index:2;width=100%;filter:drop-shadow(0 0 0.75rem rgba(0, 0, 0, 0.1));">
   <div class="w3-white w3-xlarge" style="max-width:1200px;margin:auto">
     <div class="w3-button w3-padding-16 w3-left" onclick="w3_open()">☰</div>
     <div class="w3-right w3-padding-16">The Catalyst @ UC San Diego&nbsp;&nbsp;</div>
@@ -34,47 +38,63 @@
 <div class="w3-main w3-content w3-padding" style="max-width:1200px;margin-top:30px">
 
   <!-- About Section -->
-  <div class="w3-container w3-padding-32">  
+  <div class="w3-container w3-padding-32">
+    <br><br>
     <img src="./assets/Full Black.png" alt="The Catalyst Full Logo Black" class="w3-image" width="400">
-    <h3>Propelling Scholars Forward</h3><br>
+    <h3><b>Propelling Scholars Forward</b></h3><br>
     <img src="./assets/giesel.jpg" alt="Giesel Library @ UC San Diego" class="w3-image" width="800" height="533">
+    
+    <!-- Main Content Section -->
     <div class="w3-padding-32">
-	    <h4><b>Founded in the summer of 2021, the Catalyst at UC San Diego is an inclusive academic paper series that aims to empower the voices of students who have a passion for conducting research.</b></h4><hr>
-      <p>We welcome any and all students who are interested in publishing their work, and we are dedicated to fostering a diverse community of interdisciplinary scholarship. Through this journal, we:<br>
-      </p>
-      <ul>
-	<li>Emphasize helping new students find their path in research, and aim to help publish new (and especially underrepresented) scholars.</li>
-	<li>Do not discriminate based on race, color, national origin, religion, sex, gender, disability, age, medical condition, ancestry, marital status, citizenship, or sexual orientation.</li>
-  <li>Are an academic organization connected to <a href="https://ugresearch.ucsd.edu/">UC San Diego Undergraduate Research Hub</a>.
-      </ul>
-      <hr> 
-      <p>
-      This journal was founded with the intention of supporting those who are passionate about their studies. We encourage any student interested in research to get involved. Seriously. We understand that innovation comes in many different forms.
-      <br><br>
-      Whether a scholar is distinguished in their field or is brand new to research, we are here to help them grow.
-      <br><br>
-      Whether a scholar is publishing a paper on neuroscience or an arrangement of artistic works (or anything in between), we are here to feature and celebrate their work.
-      <br><br>
-      If you are interested in getting involved with our organization as an author, please see our guidelines and submission criteria below. It contains a lot of helpful info as well as external links to our project/journal interest form.
-      </p>
-  <div class="w3-third">
-      <h3>Resources</h3>
-      <a href="https://docs.google.com/document/d/169syyVSzbiKYUJMAvVWL4nQGxmXh0z2EKLDNORBFe0I/edit?usp=sharing">Guidelines & Submission Criteria</a><br>
-      <a href="https://forms.gle/WRJE41HmaVtogf3y6">Author Interest Form</a><br>
-      <a href="https://forms.gle/YYW2ngVsVScS2ZRx7">Editor Interest Form</a>
-    </div>
-    <div class="w3-third">
-      <h3>Learn More</h3>
-      <a href="https://escholarship.org/uc/ucsd_aep_catalyst">E-Scholarship Site</a><br>
-      <a href="mailto:thecatalystatucsd@gmail.com">Email: thecatalystatucsd@gmail.com</a>
-    </div>
-    <div class="w3-third">
-      <h3>Get Connected</h3>
-      <a href="https://dsc.gg/catalyst-research">Discord</a><br>
-      <a href="https://www.instagram.com/thecatalystatucsd">Instagram</a>
+	    <h3><b>Founded in the summer of 2021, the Catalyst at UC San Diego is an inclusive academic paper series that aims to empower the voices of students who have a passion for conducting research.</b></h3>
+      
+      <!-- Buttons -->
+      <hr>
+      <h4>We are currently accepting interest forms for both authors and editors for our 2023 volume!</h4>
+      <button class="w3-button" style="background:lightgray;width:15%;min-width:50px;padding:15px 10px 10px 10px;" onclick="window.location.href='https://forms.gle/WRJE41HmaVtogf3y6';">Author Interest Form</button>
+      <button class="w3-button" style="background:lightgray;width:15%;min-width:50px;padding:15px 10px 10px 10px;margin:0 0 0 5px;" onclick="window.location.href='https://forms.gle/YYW2ngVsVScS2ZRx7';">Editor Interest Form</button>
+      
+      <!-- Body Text -->
+      <div>
+        <hr>
+        <p>We welcome any and all students who are interested in publishing their work, and we are dedicated to fostering a diverse community of interdisciplinary scholarship. Through this journal, we:<br>
+        </p>
+        <ul>
+          <li>Emphasize helping new students find their path in research, and aim to help publish new (and especially underrepresented) scholars.</li>
+          <li>Do not discriminate based on race, color, national origin, religion, sex, gender, disability, age, medical condition, ancestry, marital status, citizenship, or sexual orientation.</li>
+          <li>Are an academic organization connected to <a href="https://ugresearch.ucsd.edu/">UC San Diego Undergraduate Research Hub</a>.
+        </ul>
+        
+        <hr>
+        <p>
+        This journal was founded with the intention of supporting those who are passionate about their studies. We encourage any student interested in research to get involved. Seriously. We understand that innovation comes in many different forms. Whether a scholar is distinguished in their field or is brand new to research, we are here to help them grow. Whether a scholar is publishing a paper on neuroscience or an arrangement of artistic works (or anything in between), we are here to feature and celebrate their work.
+        <br><br>
+        If you are interested in getting involved with our organization as an author, please see our guidelines and submission criteria below. It contains a lot of helpful info as well as external links to our project/journal interest form.
+        </p>
+      </div>
+      
+      <!-- Footer -->
+      <div>
+        <hr>
+        <div class="w3-third">
+          <h3>Resources</h3>
+          <a href="https://docs.google.com/document/d/169syyVSzbiKYUJMAvVWL4nQGxmXh0z2EKLDNORBFe0I/edit?usp=sharing">Guidelines & Submission Criteria</a><br>
+          <a href="https://forms.gle/WRJE41HmaVtogf3y6">Author Interest Form</a><br>
+          <a href="https://forms.gle/YYW2ngVsVScS2ZRx7">Editor Interest Form</a>
+        </div>
+        <div class="w3-third">
+          <h3>Learn More</h3>
+          <a href="https://escholarship.org/uc/ucsd_aep_catalyst">E-Scholarship Site</a><br>
+          <a href="mailto:thecatalystatucsd@gmail.com">Email: thecatalystatucsd@gmail.com</a>
+        </div>
+        <div class="w3-third">
+          <h3>Get Connected</h3>
+          <a href="https://dsc.gg/catalyst-research">Discord</a><br>
+          <a href="https://www.instagram.com/thecatalystatucsd">Instagram</a>
+        </div>
+      </div>
     </div>
 
-    </div>
   </div>
 </div>
 
@@ -88,5 +108,7 @@ function w3_close() {
   document.getElementById("mySidebar").style.display = "none";
 }
 </script>
+
 </body>
+
 </html>
