@@ -14,4 +14,53 @@
   </style>
 </head>
 
+<body>
+
+<!-- Sidebar (hidden by default) -->
+<nav class="w3-sidebar w3-bar-block w3-card w3-top w3-xlarge w3-animate-left" style="display:none;z-index:3;width:25%;min-width:150px;" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()"
+  class="w3-bar-item w3-button">✗</a>
+  <a target="_blank" rel="noreferrer noopener" href="https://escholarship.org/uc/ucsd_aep_catalyst" onclick="w3_close()" class="w3-bar-item w3-button">Volumes</a>
+  <a target="_blank" rel="noreferrer noopener" href="mailto:thecatalystatucsd@gmail.com" onclick="w3_close()" class="w3-bar-item w3-button">Contact Us</a>
+  <!--  <a target="_blank" rel="noreferrer noopener" href="https://forms.gle/WRJE41HmaVtogf3y6" onclick="w3_close()" class="w3-bar-item w3-button">Author Interest Form</a> -->
+  <!--  <a target="_blank" rel="noreferrer noopener" href="https://forms.gle/YYW2ngVsVScS2ZRx7" onclick="w3_close()" class="w3-bar-item w3-button">Editor Interest Form</a> -->
+</nav>
+
+<div>
+        <hr>
+        <div class="w3-third">
+          <h3>Resources</h3>
+          <a target="_blank" rel="noreferrer noopener" href="https://docs.google.com/document/d/169syyVSzbiKYUJMAvVWL4nQGxmXh0z2EKLDNORBFe0I/edit?usp=sharing">Guidelines & Submission Criteria</a><br>
+          <!-- <a target="_blank" rel="noreferrer noopener" href="https://forms.gle/WRJE41HmaVtogf3y6">Author Interest Form</a><br>
+          <a target="_blank" rel="noreferrer noopener" href="https://forms.gle/YYW2ngVsVScS2ZRx7">Editor Interest Form</a> -->
+        </div>
+        <div class="w3-third">
+          <h3>Learn More</h3>
+          <a target="_blank" rel="noreferrer noopener" href="https://escholarship.org/uc/ucsd_aep_catalyst">E-Scholarship Site</a><br>
+          <a target="_blank" rel="noreferrer noopener" href="mailto:thecatalystatucsd@gmail.com">Email: thecatalystatucsd@gmail.com</a>
+        </div>
+        <div class="w3-third">
+          <h3>Get Connected</h3>
+          <a target="_blank" rel="noreferrer noopener" href="https://dsc.gg/catalyst-research">Discord</a><br>
+          <a target="_blank" rel="noreferrer noopener" href="https://www.instagram.com/thecatalystatucsd">Instagram</a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<script>
+// Script to open and close sidebar
+function w3_open() {
+  document.getElementById("mySidebar").style.display = "block";
+}
+ 
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+}
+</script>
+
+</body>
+
 </html>
