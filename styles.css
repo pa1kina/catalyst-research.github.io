@@ -1,0 +1,58 @@
+body,h1,h2,h3,h4,h5,h6 {
+    font-family: "Karma", sans-serif
+}
+
+.w3-bar-block .w3-bar-item {
+    padding:20px
+}
+
+.w3-top {
+    background:white;
+    z-index:2;
+    width:100%;
+    filter:drop-shadow(0 0 0.75rem rgba(0, 0, 0, 0.1));
+}
+#mySidebar {
+    display:none;
+    z-index:3;
+    width:25%;
+    min-width:150px; 
+}
+
+#topMenu {
+    max-width:1200px;
+    margin:auto;
+}
+
+#pageContent {
+    max-width:1200px;
+    margin-top:30px;
+}
+
+iframe {
+    width: 825px;
+    height: 800px;
+}
+
+.socials {
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+}
+
+button {
+    background:lightgray;
+    width:20%;
+    min-width:170px;
+    padding:10px 10px 10px 10px;
+    margin:0px 5px 0 0;
+    border-radius: 5px;
+    transition: 0.3s;
+
+}
+
+table {
+    display:flex;
+    align-items: center;
+}

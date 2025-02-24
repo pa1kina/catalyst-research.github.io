@@ -8,17 +8,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Karma">
-  <style>
-    body,h1,h2,h3,h4,h5,h6 {font-family: "Karma", sans-serif}
-    .w3-bar-block .w3-bar-item {padding:20px}
-
-  </style>
+  <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
 
 <!-- Sidebar (hidden by default) -->
-<nav class="w3-sidebar w3-bar-block w3-card w3-top w3-xlarge w3-animate-left" style="display:none;z-index:3;width:25%;min-width:150px;" id="mySidebar">
+<nav class="w3-sidebar w3-bar-block w3-card w3-top w3-xlarge w3-animate-left" id="mySidebar">
   <a href="javascript:void(0)" onclick="w3_close()"
   class="w3-bar-item w3-button">✗</a>
   <a href="./index.html" onclick="w3_close()" class="w3-bar-item w3-button">Home</a>
@@ -31,15 +27,15 @@
 </nav>
 
 <!-- Top Menu -->
-<div class="w3-top" style="background:white;z=index:2;width=100%;filter:drop-shadow(0 0 0.75rem rgba(0, 0, 0, 0.1));">
-  <div class="w3-white w3-xlarge" style="max-width:1200px;margin:auto">
+<div class="w3-top">
+  <div class="w3-white w3-xlarge" id="topMenu">
     <div class="w3-button w3-padding-16 w3-left" onclick="w3_open()">☰</div>
     <div class="w3-right w3-padding-16">The Catalyst @ UC San Diego&nbsp;&nbsp;</div>
   </div>
 </div>
   
 <!-- !PAGE CONTENT! -->
-<div class="w3-main w3-content w3-padding" style="max-width:1200px;margin-top:30px">
+<div class="w3-main w3-content w3-padding" id="pageContent">
 
   <!-- About Section -->
   <div class="w3-container w3-padding-32">
@@ -59,12 +55,12 @@
         <br><br>
         We will also be hosting events throughout the school year; <b>follow us <a target="_blank" rel="noreferrer noopener" href="https://www.instagram.com/thecatalystatucsd">Instagram</a> and join our <a target="_blank" rel="noreferrer noopener" href="https://dsc.gg/catalyst-research">Discord server</a></b> to get notified!
         </h5>
-        <div style="display: flex; flex-direction:column;align-items: center; justify-content: center;">
+        <div class="socials">
           <p>Check out our published works here:</p>
-          <button class="w3-button" style="background:lightgray;width:20%;min-width:170px;padding:10px 10px 10px 10px;margin:0px 5px 0 0; border-radius: 5px; transition: 0.3s;" onclick="window.open('journals.html')">Combined Journals</button>
+          <button class="w3-button" onclick="window.open('journals.html')">Combined Journals</button>
         <!-- <button class="w3-button" style="background:lightgray;width:25%;min-width:200px;padding:15px 10px 10px 10px;margin:2px 5px 0 0;" onclick="window.open('https://forms.gle/WRJE41HmaVtogf3y6', '_blank');">Author Interest Form</button>
         <button class="w3-button" style="background:lightgray;width:25%;min-width:200px;padding:15px 10px 10px 10px;margin:2px 0 0 0;" onclick="window.open('https://forms.gle/YYW2ngVsVScS2ZRx7', '_blank');">Editor Interest Form</button> -->
-        <table style="display:flex; align-items: center;">
+        <table>
           <tr>
             <th><img src="./assets/Insta QR.png" alt="The Catalyst Full Logo Black" class="w3-image" width="200"></th>
             <th><img src="./assets/Discord QR.png" alt="The Catalyst Full Logo Black" class="w3-image" width="200"></th>
